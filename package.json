@@ -1,0 +1,17 @@
+{
+  "name": "my-playwright-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@4.18.0",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "playwright": "^1.62.1",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "test": "playwright test --project firefox --headed"
+  }
+}
